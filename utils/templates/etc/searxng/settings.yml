@@ -9,10 +9,14 @@ general:
 search:
   safe_search: 2
   autocomplete: 'duckduckgo'
-  formats:
-   - html
-   - json
-
+  search:
+    formats:
+      - html
+      - json
+    allowed_formats:
+      - html
+      - json
+      
 server:
   # Is overwritten by ${SEARXNG_SECRET}
   secret_key: "ultrasecretkey"

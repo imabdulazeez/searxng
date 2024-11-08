@@ -71,8 +71,13 @@ search:
 
   # remove format to deny access, use lower case.
   # formats: [html, csv, json, rss]
-  formats:
-    - json
+  search:
+    formats:
+      - html
+      - json
+    allowed_formats:
+      - html
+      - json
 
 server:
   # Is overwritten by ${SEARXNG_PORT} and ${SEARXNG_BIND_ADDRESS}
