@@ -16,7 +16,7 @@ search:
     allowed_formats:
       - html
       - json
-      
+
 server:
   # Is overwritten by ${SEARXNG_SECRET}
   secret_key: "ultrasecretkey"
