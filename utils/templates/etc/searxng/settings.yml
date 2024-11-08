@@ -9,6 +9,9 @@ general:
 search:
   safe_search: 2
   autocomplete: 'duckduckgo'
+  formats:
+   - html
+   - json
 
 server:
   # Is overwritten by ${SEARXNG_SECRET}
